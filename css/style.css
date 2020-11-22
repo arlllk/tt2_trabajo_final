@@ -1,0 +1,15 @@
+
+/* importando tipo de letra desde google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* agregando tipo de letra por defecto a toda la pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
