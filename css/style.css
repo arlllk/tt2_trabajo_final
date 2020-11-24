@@ -11,5 +11,45 @@
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+
+    display: flex;   
+    
+    box-sizing: border-box;
+    transition: 2s;
+    /* overflow-y: hidden;  | no se muestre y no funcione el scrool*/
+}
+
+/* body:hover {
+    
+    background: url(../images/png/fondo-balls3.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+} */
+
+
+
+body{
+    background: url(../images/png/fondo-balls3.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+h1{
+    /* border: 1px solid blue; */
+    font-family: 'Roboto';
+    font-size: 900%;
+    color: lavender;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 100%;
+    animation: changeColor 5s linear 0.5s 4 normal forwards running;
 }
