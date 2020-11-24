@@ -22,15 +22,9 @@ body{
     /* overflow-y: hidden;  | no se muestre y no funcione el scrool*/
 }
 
-/* body:hover {
-    
-    background: url(../images/png/fondo-balls3.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-} */
+::-webkit-scrollbar {
+    display: none;
+}
 
 
 
@@ -48,8 +42,54 @@ h1{
     font-family: 'Roboto';
     font-size: 900%;
     color: lavender;
-    margin-top: 20%;
-    margin-left: 10%;
-    width: 100%;
+    margin-top: 10%;
+    /* margin-left: 0%; */
+    width: 120%;
     animation: changeColor 5s linear 0.5s 4 normal forwards running;
+    /* background: blue; */
 }
+
+h1{
+    padding-left: 5%;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-iteration-count: initial;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 30%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .enlaces{
+      /* background: red; */
+    display: flex;    
+    float: right;
+    margin-left: 0%;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 50px;
+  }
+
+  .contenedores{
+      width: 100%;      
+      justify-content: center;
+  }
+
+  .enlaces a{      
+        margin-right: 50px;
+        text-decoration: none;
+        color: aliceblue;
+        
+  }
+
+  .enlaces a img{
+      width: 50px;
+  }
