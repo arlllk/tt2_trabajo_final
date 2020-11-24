@@ -1,0 +1,150 @@
+.contiene{
+    /* border: 2px solid blue; */
+    background: #162e1c; 
+    width: 100%;
+    max-width: 100%;
+    height: 30%;
+    display: flex;
+}
+.image-proyect{
+    border: 2px solid orange;
+    max-width: 40%;
+    width: 100%;
+    height: 100%;order: 1;
+}
+.image-proyect img{
+    border: 2px solid rgb(248, 252, 250);
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.description{
+    border: 2px solid red; 
+    width: 60%;
+    float: right;
+    order: 2;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.tituloProyecto{
+    text-align: center;
+    /* margin: 10px; */
+    font-size: 200%;
+    color: green;               
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid black; */
+}
+.describe{
+    text-align: justify;
+    font-size: 105%; 
+    color: rgb(248, 252, 250);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    /* border: 2px solid black; */
+}
+.video{
+    /* border: 2px solid green; */
+    width: 100%;
+    max-width: 100%;
+    height: 40%;
+}
+.music{
+    border: 2px solid rgb(248, 252, 250) ; 
+    margin-left: 20%;
+    margin-top: 4%;
+    border-radius: 10px;
+}
+.notas{
+    /* border: 2px solid blueviolet; */
+    /* background: #b1c7b6;  */
+    width: 100%;
+    height: 30%;
+}
+.texto{
+    /* border: 2px solid blue; */
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 150%;
+    text-align: center;
+    color: #0f6121;
+}
+.avanza{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin-top: 2%;
+}
+.siguiente{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+.anterior{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 100%;
+}
+.botons{
+    width: 30%;
+    background: rgba(49, 199, 49, 0.878);
+    border: 1px solid rgba(49, 199, 49, 0.782);
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 30%;
+    height: 60%;
+    color: aliceblue;
+}
+.siguiente .botons:hover{
+    background: rgba(9, 134, 9, 0.878);
+    color: yellow;
+}
+.anterior .botons:hover{
+    background: rgba(9, 134, 9, 0.878);
+    color: yellow;
+}
+.avanza img{
+    width: 10%;
+}
+.avanza .siguiente .botons{
+    margin-left: 0;
+}
+.avanza .siguiente img{
+    margin-left: 30%;
+}
+
+
+/*EMPIEZA LO RESPONSIVE DESIGN*/
+
+@media (max-width:1260px){
+   
+    .contiene{
+        display: block;
+        height: 50%;
+    }
+    .image-proyect{
+        /* border: 2px solid orange; */
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .image-proyect img{
+        border: 2px solid rgb(248, 252, 250);
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border-radius: 10px;
+    }
+    .description{
+        /* border: 2px solid red;  */
+        width: 100%;
+        float: right;        
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}

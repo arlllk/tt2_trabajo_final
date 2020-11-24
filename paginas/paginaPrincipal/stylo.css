@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*cambios*/
+
+:root{
+    --degradado1: hsl(30, 3%, 85%);
+    --degradado2: hsl(0, 0%, 0%);    
+}
+
+.principal{
+    background: #f3f4e6;
+}
+
+.logo{
+    margin-left: 3%;
+}
+.linea{
+    width: 80%;
+    height: 1px
+    ;background: #535353;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.lineados{
+    text-align: center;
+    font-size: 18px;
+}
+.logo img{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;    
+    margin-left: 10%;
+    margin-top: 25px;
+    width: 150px;
+    margin-left: 10%;margin-top: 25px;width: 150px;
+}
+header .nav li:hover {
+    background: #ff9a44;    
+    border-radius: 10px;        
+}
+.nav li a:hover{
+    background: #aec1c5; 
+}
+
+#header .nav >li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+#header {
+    width: 60%;
+    float: right;
+    margin: 8px auto auto;
+    
+}
+
+.todo {
+    max-height: 100%;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+#todo{
+    height: 2000px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #f3f4e6;
+    padding: 80px auto auto;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #5698a9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    display: block;
+    border-radius: 0;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+/*para todo el body*/
+body {
+    background: #ffff;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 60%;
+    height: 100px;
+    width: 100%;
+    background: #0d2920a1;    /*#0d2920*/
+    position: fixed;
+    line-height: 15%;
+}
+
+.logo img {
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;
+}
+
+/*pasa el mouse por el menu*/
+header .nav li:hover {
+    background: #2d8238;
+    border-radius: 10px;
+}
+
+/*borde de los menus cuando pasa el menu*/
+.nav li a:hover {
+    background: #2d8238;
+}
+
+/*tamaño de la letra del menu*/
+#header .nav > li {
+    display: inline-block;
+    color: rgb(236, 219, 219);
+    text-decoration: none;
+    line-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+
+#header {
+    width: 700px;
+    margin: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #0d292000; /*#0d2920*/
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+
+
+
+.contenido {
+    padding-top: 100px;
+    height: 2600px;
+}
+
+.primero{
+    margin-top: 2%;
+    margin-right: 10%;
+}
+.primero .p1 {
+    float: left;
+    font-size: 40px;
+    background-color: #f3f4e6;
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-top: 3%;
+}
+
+.primero .p1 span{
+    color: green;
+}
+.primero .primeropt1{
+    width: 20%;
+    float: right;
+}
+
+
+
+.primero .primeropt1 img{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.segundo{
+    max-width: 100%;width: 100%;margin-top: 15%;
+}
+
+.segundo .mision{
+    width:30%;margin-left: 10%;margin-top: 25%;
+}
+
+.misionpt1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*pertenece al footer*/
+footer {
+    width: 100%;
+    background: #092c1d;
+    color: #C7C7C7;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 90%;
+    margin-left: 7%;
+    margin-top: 1%;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    max-width: 400px;
+    margin-left: 10%;
+
+}
+
+.column1 h1 {
+    font-size: 22px;
+}
+
+/*jacques*/
+.column1 p {
+    font-size: 15px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.rosseau {
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.column2 {
+    max-width: 30%;
+    width: 100%;
+    padding-left: 7%;
+    margin-left: 0;
+}
+
+.column2 h1 {
+    font-size: 22px;
+}
+
+.column2 .row {
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+    
+}
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright {
+    color: #C7C7C7;    
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+.row img:hover{
+    background-image: url(images/redes/hover/facebook.png);
+}
+
+
+/*para motorola*/
+.motorola{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-size: 70px;
+    font-family: monospace;
+}
+h2{
+    width: 100%;
+    height: 100px;
+    padding-left: 15%;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.motorola .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;    
+    color: #092c1d;
+}
+
+.motorola .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    color: #2d8238;
+    
+}
+
+.motorola .card img{
+    width: 200px;
+    max-height: 250px;
+    height: 100%;
+}
+
+.motorola .card .h4{
+    font-weight: 600;
+}
+
+.motorola .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.motorola .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.mision div:hover{
+    color: #2d8238;
+}
+/* codigo para hacer responsive design
+@media screen and (max-width:680px) {
+    .logo {
+        width:8%;
+    }
+} */
+
+
+.contenedor-projects{
+    padding-top: 20%;
+    width: 100%;
+    height: 100%;    
+    justify-content: space-between;
+    
+}
+
+.contenedor-projects-titulo{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.contenedor-projects-titulo p{
+    /* border: 1px solid yellow; */
+    padding-top: 1%;
+    font-size: 100px;
+    color: #266f4f;    
+}
+
+.contenedor-project-img {
+    border: 5px solid #b1d4a7;
+    display: inline-block;
+    width: 25%;
+    height: 30%;    
+    margin: 3rem;
+    border-radius: 20px;  
+    /* position: relative; */
+    background: linear-gradient(to left, rgb(18, 121, 32), #46ee24);
+}
+
+.contenedor-project-img img{    
+    width: 100%;
+    height: 90%;
+    border-radius: 10px 10px 0 0;
+}
+
+.contenedor-project-img p{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.uno:hover, .dos:hover, .tres:hover{
+    border: none;    
+}
+
+
+/* para el boton carga */
+.rayitos{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #c1f016;
+    padding: 30px 60px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .rayitos::before{
+    content: '';
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .rayitos span:nth-child(1){
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #065541, #0cdf25);     
+    animation: animate1 2s linear infinite;       
+  }
+  @keyframes animate1{
+    0%{
+      transform: translateX(-100%);
+    }
+    100%{
+      transform: translateX(100%);
+    }
+  }
+
+  .rayitos span:nth-child(2){
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #065541, #0cdf25);   
+    animation: animate2 2s linear infinite; 
+    animation-delay: 1s;
+  }
+  @keyframes animate2{
+    0%{
+      transform: translateY(-100%);
+    }
+    100%{
+      transform: translateY(100%);
+    }
+  }
+  .rayitos span:nth-child(3){
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, #065541,#0cdf25);      
+    animation: animate3 2s linear infinite;       
+  }
+  @keyframes animate3{
+    0%{
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
+
+  .rayitos span:nth-child(4){
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, #065541, #0cdf25);  
+    animation: animate4 2s linear infinite; 
+    animation-delay: 1s;
+  }
+  @keyframes animate4{
+    0%{
+      transform: translateY(100%);
+    }
+    100%{
+      transform: translateY(-100%);
+    }
+  }
