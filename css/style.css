@@ -1,125 +1,114 @@
-
 /* importando tipo de letra desde google-fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 /* agregando tipo de letra por defecto a toda la pagina */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin     : 0;
+	padding    : 0;
+	box-sizing : border-box;
 }
 
-
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-
-
-    display: flex;   
-    
-    box-sizing: border-box;
-    transition: 2s;
-    /* overflow-y: hidden;  | no se muestre y no funcione el scrool*/
+body {
+	font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display     : flex;
+	box-sizing  : border-box;
+	transition  : 2s;
+	/* overflow-y: hidden;  | no se muestre y no funcione el scrool*/
 }
 
 ::-webkit-scrollbar {
-    display: none;
+	display : none;
 }
 
-
-
-body{
-    background: url(../images/png/fondo-balls3.png) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+body {
+	background              : url(../images/png/fondo-balls3.png) no-repeat center center fixed;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
 }
 
-
-h1{
-    /* border: 1px solid blue; */
-    font-family: 'Roboto';
-    font-size: 900%;
-    color: lavender;
-    margin-top: 10%;
-    /* margin-left: 0%; */
-    width: 120%;
-    animation: changeColor 5s linear 0.5s 4 normal forwards running;
-    /* background: blue; */
+h1 {
+	/* border: 1px solid blue; */
+	font-family : 'Roboto', sans-serif;
+	font-size   : 900%;
+	color       : lavender;
+	margin-top  : 10%;
+	/* margin-left: 0%; */
+	width       : 120%;
+	animation   : changeColor 5s linear 0.5s 4 normal forwards running;
+	/* background: blue; */
 }
 
-h1{
-    padding-left: 5%;
-    animation-duration: 1.5s;
-    animation-name: slidein;
-    animation-iteration-count: initial;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 30%;
-      width: 100%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+h1 {
+	padding-left              : 5%;
+	animation-duration        : 1.5s;
+	animation-name            : slidein;
+	animation-iteration-count : initial;
+}
 
-  .enlaces{
-      /* background: red; */
-    display: flex;    
-    float: right;
-    margin-left: 0%;
-    width: 10%;
-    margin-top: 2%;
-    margin-right: 50px;
-  }
+@keyframes slidein {
+	from {
+		margin-left : 30%;
+		width       : 100%
+	}
 
-  .contenedores{
-      width: 100%;      
-      justify-content: center;
-  }
+	to {
+		margin-left : 0%;
+		width       : 100%;
+	}
+}
 
-  .enlaces a{      
-        margin-right: 25px;
-        text-decoration: none;
-        color: aliceblue;
-        
-  }
+.enlaces {
+	/* background: red; */
+	display      : flex;
+	float        : right;
+	margin-left  : 0%;
+	width        : 10%;
+	margin-top   : 2%;
+	margin-right : 50px;
+}
 
-  .enlaces a img{
-      width: 40px;
-  }
+.contenedores {
+	width           : 100%;
+	justify-content : center;
+}
 
-  .datos-enlaces{
-    /* border: 2px solid blue; */
-    height: 45%;
-    transition: 1s;
-  }
+.enlaces a {
+	margin-right    : 25px;
+	text-decoration : none;
+	color           : aliceblue;
 
-  .datos-enlaces div{
-      margin-top: 5%;
-      margin-left: 10%;
-      margin-bottom: 2%;
-      transition: 1s;
-      border-radius: 10px;
-      width: 20%;
-  }
+}
 
-  .datos-enlaces a{
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(13, 12, 22);
-    /* width: 500px; */
-  }
+.enlaces a img {
+	width : 40px;
+}
 
-  
+.datos-enlaces {
+	/* border: 2px solid blue; */
+	height     : 45%;
+	transition : 1s;
+}
 
-  .datos-enlaces div:hover{
-      background: rgb(12, 212, 45);
-      padding-left: 5%;
-  }
+.datos-enlaces div {
+	margin-top    : 5%;
+	margin-left   : 10%;
+	margin-bottom : 2%;
+	transition    : 1s;
+	border-radius : 10px;
+	width         : 20%;
+}
+
+.datos-enlaces a {
+	font-size       : 30px;
+	text-decoration : none;
+	color           : rgb(13, 12, 22);
+	/* width: 500px; */
+}
+
+.datos-enlaces div:hover {
+	background   : rgb(12, 212, 46);
+	padding-left : 5%;
+}
 
